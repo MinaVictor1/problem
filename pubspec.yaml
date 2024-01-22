@@ -58,13 +58,8 @@ flutter:
   uses-material-design: true
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/3d/Astronaut.glb
-    - assets/3d/FinalBaseMesh.obj
-    - assets/3d/6585f45bd3ccf6fa24823d13.glb
-    - assets/3d/RobotExpressive.glb
-    - assets/3d/Capoeira.fbx
-    - assets/3d/Breakdance Ending 1.fbx
-    - assets/3d/untitled.glb
+    - assets/3d/
+    - assets/images/
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
   # For details regarding adding assets from package dependencies, see

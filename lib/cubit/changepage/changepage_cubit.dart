@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:loop_page_view/loop_page_view.dart';
 import 'package:meta/meta.dart';
-import 'package:threemodel/List.dart';
+import 'package:threemodel/lists/List.dart';
 
 part 'changepage_state.dart';
 
@@ -19,7 +19,7 @@ class ChangepageCubit extends Cubit<ChangepageState> {
 
     controller.jumpToPage(i);
 
-    Future.delayed(const Duration(seconds: 5), () {
+    Future.delayed(const Duration(seconds: 10), () {
       i++;
       // Check if i exceeds the total number of pages and reset if needed
       if (i >= models.length) {

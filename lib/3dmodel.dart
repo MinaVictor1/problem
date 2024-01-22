@@ -1,14 +1,12 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 class Model {
-  String model1;
-  String model2;
-  String moveModel1;
+  List<String> models;
+  String action;
   String backGround;
 
   Model({
-    required this.model1,
-    required this.model2,
-    required this.moveModel1,
+    required this.models,
+    required this.action,
     required this.backGround,
   });
 }
