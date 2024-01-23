@@ -1,5 +1,5 @@
-import 'package:flutter_3d_controller/flutter_3d_controller.dart';
+import 'package:o3d/o3d.dart';
 
-Flutter3DController astController = Flutter3DController();
-Flutter3DController unController = Flutter3DController();
-Flutter3DController danController = Flutter3DController();
+O3DController astController = O3DController();
+O3DController unController = O3DController();
+O3DController danController = O3DController();

@@ -1,9 +1,7 @@
-import 'package:duration_button/duration_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:threemodel/lists/List.dart';
 import 'package:threemodel/cubit/changepage/changepage_cubit.dart';
-import 'package:threemodel/lists/listcontroller.dart';
 import '3dscene.dart';
 
 class MyHomePage extends StatefulWidget {

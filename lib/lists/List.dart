@@ -16,8 +16,8 @@ List<Model> models = [
   ),
   Model(
     models: [
-      dance,
       astronaut,
+      dance,
       untitled,
     ],
     action: 'Death',
@@ -25,9 +25,9 @@ List<Model> models = [
   ),
   Model(
     models: [
+      untitled,
       dance,
       astronaut,
-      untitled,
     ],
     action: 'Death',
     backGround: 'assets/background1.jpg',
