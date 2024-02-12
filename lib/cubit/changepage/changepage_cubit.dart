@@ -15,26 +15,14 @@ class ChangepageCubit extends Cubit<ChangepageState> {
   int i = 0;
 
   Future<void> changePage(PageController controller) async {
-    await _loadPageInBackground(i + 1); // Load the next page in the background
-
     controller.jumpToPage(i);
 
-    Future.delayed(const Duration(seconds: 10), () {
-      i++;
+    Future.delayed(const Duration(seconds: 20), () {
       // Check if i exceeds the total number of pages and reset if needed
       if (i >= models.length) {
         i = 0;
       }
       emit(ChangepageForward());
     });
-  }
-
-  Future<void> _loadPageInBackground(int index) async {
-    if (index < models.length) {
-      // Simulate loading in the background
-      await Future.delayed(const Duration(seconds: 2));
-      print('Page $index loaded in the background.');
-      // You can trigger any additional logic here for loading the page.
-    }
   }
 }

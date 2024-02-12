@@ -13,7 +13,6 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   PageController controller = PageController();
-  int i = 0;
 
   @override
   Widget build(BuildContext context) {
@@ -35,6 +34,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       children: [
                         Scene3D(
                           models: models[index].models,
+                          xyz: models[index].xyz,
                         ),
                       ],
                     );

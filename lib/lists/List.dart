@@ -2,34 +2,34 @@ import '../3dmodel.dart';
 
 String astronaut = "assets/3d/listen.glb";
 String untitled = "assets/3d/listening.glb";
-String dance = "assets/3d/ImageToStl.com_talking.glb";
+String talk = "assets/3d/woman.glb";
 
 List<Model> models = [
   Model(
-    models: [
-      dance,
-      astronaut,
-      untitled,
+    models: [talk, talk],
+    xyz: [
+      [-60, 70, 200],
+      [60, 70, 200],
     ],
-    action: 'Death',
+    action: 'Armature|Take 001|BaseLayer',
     backGround: 'assets/background1.jpg',
   ),
   Model(
-    models: [
-      astronaut,
-      dance,
-      untitled,
+    models: [talk, talk],
+    xyz: [
+      [-60, 70, 200],
+      [60, 70, 200],
     ],
-    action: 'Death',
-    backGround: 'assets/background2.jpg',
+    action: 'Armature|Take 001|BaseLayer',
+    backGround: 'assets/background1.jpg',
   ),
   Model(
-    models: [
-      untitled,
-      dance,
-      astronaut,
+    models: [talk, talk],
+    xyz: [
+      [-60, 70, 200],
+      [60, 70, 200],
     ],
-    action: 'Death',
+    action: 'Armature|Take 001|BaseLayer',
     backGround: 'assets/background1.jpg',
   ),
 ];
